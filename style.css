@@ -4,7 +4,11 @@ body{
     background-color: rgba(175, 237, 245, 0.438);
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    
     /* background-image: linear-gradient(#97BFB4,#D3E4CD); #E2C2B9*/
+}
+html{
+  font-size: 62.5%;
 }
 .conta{
   background-image: url(./images/bg.jpeg) ;
@@ -15,7 +19,9 @@ html{
   scroll-behavior: smooth;
 }
 .header{
-    height: 50px;
+  font-size: 1.5rem;
+  padding-right: 1rem;
+    height: 5rem;
     background-color: transparent;
     position:static;
 }
@@ -23,8 +29,8 @@ ul{
     display: flex;
     float: right;
     gap: 1.7rem;
-    margin-top: 30px;
-    margin-right: 15px;
+    margin-top: 3rem;
+    margin-right: 1.5rem;
 }
 li{
     list-style-type: none;
@@ -49,23 +55,23 @@ a:hover::after{
 .main{
     display: flex;
     /* gap: 3rem; */
-    margin: 120px 100px;
-    height: 700px;
+    margin: 12rem 10rem;
+    height: 70rem;
 }
 #img{
-    /* filter: drop-shadow(5px 4px 10px black); */
+    /* filter: drop-shadow(5rem 4rem 10rem black); */
     background-color: rgb(45, 46, 48);
     border-radius: 50%;
-    height: 500px;
-    box-shadow: 3px 4px 8px black;
-    width: 440px;
+    height: 45rem;
+    box-shadow: 0.3rem 0.4rem 0.8rem black;
+    width: 44rem;
 }
 .content{
-    margin: 20px 10px auto 60px ;
+    margin: 2rem 1rem auto 6rem ;
     color: white;
 }
 p{
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 500;
     
 }
@@ -82,7 +88,7 @@ span{
   font-family: 'Staatliches', sans-serif;
   text-transform: uppercase;
   font-display: swap;
-  text-shadow: 0 0 10px tomato;
+  text-shadow: 0 0 1rem tomato;
 }
 
 .jt__row {
@@ -106,7 +112,7 @@ span{
   top: 0;
   left: 0;
   user-select: none;
-  witdh:800px;
+  witdh:80rem;
 }
 
 .jt__text {
@@ -139,12 +145,12 @@ span{
   }
   0%   { 
   opacity: 0; 
-  filter: blur(10px);
+  filter: blur(1rem);
   
   }
   100% { 
   opacity: 1; 
-  filter: blur(0px);
+  filter: blur(0rem);
   }
 }
 
@@ -161,103 +167,97 @@ span{
 
 * { box-sizing: border-box }
 
-/* html, body {
-  margin: 0;
-  background: black;
-  color: tomato;
-  height: 100%;
-} */
 
-/* body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-} */
-/* About section */
 .about{
   text-align: center;
-  margin: 50px 120px;
-  padding: 20px;
+  margin: 5rem 12rem;
+  padding: 2rem;
 }
 .about:hover{
   text-align: center;
-  margin: 50px 120px;
-  padding: 20px;
-  border: 4px black solid;
+  margin: 5rem 12rem;
+  padding: 2rem;
+  border: 0.4rem black solid;
   transition: 0.7s all ease-in-out;
-  transform: translate3d(0px,5px,8px);
-box-shadow: rgb(110, 109, 109) 5px 4px 10px;
+  transform: translate3d(0rem,0.5rem,0.8rem);
+box-shadow: rgb(110, 109, 109) .5rem 0.4rem 1rem;
 
 }
+
 .part1 p{
-  font-size: 20px;
-  line-height: 2.5rem;
+  font-size: 2.5rem;
+  line-height: 4rem;
   text-align: left;
-  margin-top: -20px;
+  margin-top: -2rem;
 }
 #h11{
   font-size: 3.5em;
-  margin-bottom: -20px;
+  margin-bottom: -2rem;
+}
+.part1 h1{
+  font-size: 2.5rem;
 }
 .skill{
-  padding-top: 50px;
-  margin: 80px 10px auto 100px;
+  font-size: 1.5rem;
+  padding-top: 5rem;
+  margin: 8rem 1rem auto 10rem;
 }
 .skill h1,.exp h1{
   text-align: center;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 h2{
-  margin-top: 70px;
-  padding-right: 50px;
+  margin-top: 7rem;
+  padding-right: 5rem;
 }
 .gridskill{
   display: grid;
+  gap: 1.5rem;
   grid-template-columns: auto auto auto auto auto auto;
-  line-height: 4rem;
-  margin-top: 100px ;
+  line-height: 0.8rem;
+  margin-top: 10rem ;
 }
 .exp{
-  margin-top: 140px;
+  font-size: 1.5rem;
+  margin-top: 14rem;
   background-color: white;
-  padding-top: 10px;
+  padding-top: 1rem;
 }
 .exp h2{
-  padding-left: 100px;
-  padding-right: 70px;
+  padding-left: 10rem;
+  padding-right: 7rem;
 }
 .cards{
  
-  margin-top: 60px;
+  margin-top: 6rem;
 display: grid;
 grid-template-columns: auto auto auto;
-padding: 70px;
-padding-left: 150px;
+padding: 7rem;
+padding-left: 15rem;
 }
 .card{
     box-sizing: border-box;
     background-color: black;
-    height: 300px;
-    width: 300px;
-    border-radius: 50px;
+    height: 30rem;
+    width: 30rem;
+    border-radius: 5rem;
 background: #e0e0e0;
-box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;
+box-shadow:  2rem 2rem 6rem #bebebe,
+             -2rem -2rem 6rem #ffffff;
 }
 .grid{
   width: fit-content;
 }
 #logo{
-  margin: 20px 98px;
+  margin: 2rem 9.8rem;
 }
 .cardhead{
   text-align: center;
-  font: 2.2rem;
+  font: 0.22rem;
   font-weight: 700;
 }
 .cardcontent{
-  margin: 20px;
+  margin: 2rem;
 }
 .card:hover{
   background-color: black;
@@ -266,57 +266,57 @@ box-shadow:  20px 20px 60px #bebebe,
 #down{
   background-color: black;
   color: white;
-  padding: 15px;
-  border-radius: 12px;
+  padding: 1.5rem;
+  border-radius: 1.2rem;
 
 }
 #down:hover{
   background-color: transparent;
   color: black;
-  border: 3px black solid;
-  padding: 12px;
-  border-radius: 12px;
+  border: 0.3rem black solid;
+  padding: 1.2rem;
+  border-radius: 1.2rem;
   text-decoration: none;
 }
 .container{
-  padding: 40px;
+  padding: 4rem;
 }
 .formm{
   display: flex;
   gap: 15%;
 }
 label{
-  margin-right: 50px;
-  width: 60px;
+  margin-right: 5rem;
+  width: 6rem;
 }
 input{
   outline: none;
-  width: 200px;
+  width: 20rem;
   background-color: white;
-  /* margin-left: 50px; */
+  /* margin-left: 50rem; */
 }
 input:focus{
 background-color: rgb(30, 30, 31);
 color: white;
 }
 .form-group{
-  margin: 10px 30px;
+  margin: 1rem 3rem;
 }
 #email,#name{
-  width: 450px;
-  height: 40px;
-  margin-top: 20px;
+  width: 45rem;
+  height: 4rem;
+  margin-top: 2rem;
 }
 #message{
-  /* margin-left: 28px; */
-  width: 450px;
-  margin-top: 20px;
+  /* margin-left: 28rem; */
+  width: 45rem;
+  margin-top: 2rem;
 }
 .btn-primary{
-padding: 15px;
+padding: 1.5rem;
 color: white;
-margin-left: 30px;
-font-size: 20px;
+margin-left: 3rem;
+font-size: 2rem;
 background-color: blue;
 }
 .btn-primary:hover{
@@ -325,9 +325,79 @@ background-color: blue;
   
 }
 .con h2 , .con2 h2{
- margin: 30px;
+ margin: 3rem;
 }
 .iconss{
   display: grid;
   grid-template-columns: auto auto;
+}
+@media screen and (max-width:600px) {
+  html{
+    font-size: 25%;
+  }
+  .conta{
+ height: 100vh;
+ width: 100vw;
+  }
+  .main{
+    display: block;
+  }
+  #img{
+    margin-left: 11rem;
+  }
+  .content{
+    margin: 15rem  auto auto 10rem;
+  }
+  .about{
+    width: 100vw;
+    height: 100vh;
+    margin-left: 2rem;
+    padding-left: 2rem;
+  }
+  #h11{
+    font-size: 10rem;
+  }
+  .part1 h1{
+    font-size: 4rem;
+  }
+  .skill{
+    height: 100vh;
+  }
+  .skill h1,.exp h1{
+    font-size: 10rem;
+  }
+  .gridskill{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: auto auto auto ;
+  }
+  .exp{
+    height: 110vh;
+  }
+.cards{
+display: grid;
+grid-template-columns: auto;
+text-align: center;
+gap: 5rem;
+margin-top: 2rem;
+margin-left: 15rem;
+}
+#logo{
+  height: 8rem;
+}
+.formm{
+  display: block;
+}
+.con h2,.con2 h2{
+  font-size: 6rem;
+}
+.con{
+  text-align: center;
+}
+label{
+  text-align: left;
+}
+.icons{
+  margin: 0rem;
+}
 }
