@@ -459,6 +459,7 @@ background-color: blue;
   .about:hover{
     margin-left: 2rem;
     padding-left: 2rem;
+    border: none;
   }
   #h11{
     font-size: 10rem;
