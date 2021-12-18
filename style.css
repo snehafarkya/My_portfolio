@@ -445,10 +445,13 @@ background-color: blue;
     display: block;
   }
   #img{
-    margin-left: 13rem;
+    margin-left: 15rem;
   }
   .content{
     margin: 17rem  auto auto 10rem;
+  }
+  .jt .--debug{
+margin-top: 4em;
   }
   .about{
     width: 100vw;
